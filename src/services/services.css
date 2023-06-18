@@ -1,0 +1,15 @@
+.opened {
+    display: inline-block;
+    transform: rotate(90deg);
+    transition: transform 0.3s ease-in-out;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.closed {
+    display: inline-block;
+    transform: rotate(0deg);
+    transition: transform 0.3s ease-in-out;
+    font-weight: bold;
+    margin-right: 5px;
+}
